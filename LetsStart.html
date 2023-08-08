@@ -1,0 +1,156 @@
+
+
+<style> 
+
+   .silver-background{background-color: silver;}
+   .thik-green-border{
+      border-color: hwb(143 7% 8% / 0.559);
+     border-width: 10px;
+     border-style: solid;
+     border-radius: 500px;
+   }
+   .larger-image{width: 500px; height: 500;}
+   .red-text {color: rgb(47, 238, 255);
+              font-size: 50px;}
+   h{border-color: black;
+     border-width: 5px;
+     border-style: solid;
+    }          
+   h2{color: blue;
+      background-color: aqua;}
+   p {color: red;
+      font-size: 50px;
+      font-family: monospace;}
+</style>
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="This is an awesome website">
+    <meta name="author" content="Sumon">
+    <meta name="keywords" content="HTML, Tutorial, Giraffe Academy">
+    <title>Sumon's website</title>   
+  </head>
+  <body style="background-color:rgb(250, 251, 251)">
+    <h1 style="color: aqua;">Sumon's website</h1>
+    <hr></hr>
+    <br></br>
+    <b> Hello world</b>
+    <i>I'm in.</i> 
+    <p><big>This</big> <big>is</big> <small>my</small> <b>first</b> <i>programme</i></p>
+    <p>H<sub>2</sub>O</p>
+    <p>10<sup>2</sup></p>
+    <h2>Comments are <i>invisible</i></h2>
+    <hr/>
+    <!--You don't see the comment.
+      comments are invisible--> 
+
+    <p>Let's test pull request.</p>
+     <h2>Style and Colors</h2>
+     <p style="color: rgb(255, 0, 187);background-color: rgb(222, 234, 227);">You can style your HTML and make it loop pretty. </p>
+     <h3>Link</h3>
+     <hr>
+     <a href="https://www.google.com" target="_blank"><h4>Google's Homepage</h4></a>
+     <a href="2ndtry.html">Page 1</a>
+     <a href="nature.jpg">Image</a>
+
+     <p>     <img width="100" height="100" class="larger-image thik-green-border" src="https://images.unsplash.com/photo-1430876988766-1be68caef0e4?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80" alt="A beautiful image"  />
+     </p>
+     <p><h4>Videos & YouTube iFrames</h4></p>
+     <hr>
+     <video src="Messi Best Goal.mp4" loop autoplay controls Width="300"></video>
+     <iframe width="560" height="315" src="https://www.youtube.com/embed/Mcc4euLpHb8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+     <iframe width="560" height="315" src="https://www.youtube.com/embed/G_9hhtu4ZVo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>></iframe>
+      <p><h5>List</h5></p>
+      <hr>
+     <ul>
+        <li><a href="#">Apples</a></li>
+        <li>Oranges</li>
+        <li>Bananas</li>
+     </ul> 
+     <ol type="i">
+      <li><a href="#">Apples</a></li>
+      <li>Oranges
+         <ol>
+          <li>item1</li>
+          <li>item2</li>
+         </ol>
+      </li>
+      <li>Bananas</li>
+   </ol>
+
+   <dl>
+      <dt>Apples</dt>
+      <dd>- This is Apple.</dd>
+      <dt>Oranges</dt>
+      <dd>-This is Orange.</dd>
+   </dl>
+
+   <p><h6 class="red-text">Table</h6></p>
+   <hr>
+   <table class="silver-background">
+      <thead>
+        <caption><h6>List of Numbers</h6></h2></caption>
+        <tr>
+          <th>num1</th>
+          <th>num2</th>
+          <th>num3</th>
+       </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>one</td>
+          <td>two</td>
+          <td>three</td>
+       </tr>
+       <tr>
+         <td>four</td>
+         <td>five</td>
+         <td>six</td>
+      </tr>
+      </tbody>
+   </table>
+   <hr>
+
+      <span>span1</span>
+      <span>span2</span>
+   <hr>
+      <div>div1</div>
+      <div>div2</div>
+   <hr>
+
+   <p><h>Input & Forms</h></p>
+   <hr>
+
+   <input type="text" value="Enter Your Username"/>
+   <input type="password"/>
+
+  <p> <textarea rows="10" cols="30">
+        Enter a paragraph
+      </textarea>
+  </p>
+  <p><input type="date"/></p>
+  <p><input type="email"/></p>
+  <p><input type="range"/></p>
+  <p><input type="file"/></p>
+   <input type="checkbox"/>
+   <input type="checkbox"/>
+   <input name="btn" type="radio"/>
+   <input name="btn" type="radio"/>
+  <form>
+   <input type="submit"/>
+  </form>
+
+  <p><h>Iframe</h></p>
+  <hr>
+  <iframe src="http://giraffeacademy.com" width="100" height="800">Sorry</iframe>
+  
+  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3619.066827100579!2d91.89316091452417!3d24.895702049976496!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x375055447c89f0ef%3A0xabbbcd8a662762e2!2sMetropolitan%20University%2C%20Sylhet%20Bangladesh!5e0!3m2!1sen!2sbd!4v1672661861758!5m2!1sen!2sbd" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+
+
+  </body>
+</html>
